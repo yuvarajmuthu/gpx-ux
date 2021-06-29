@@ -1,0 +1,972 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs==================================================-->
+    <title>Gopolitix</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS==================================================-->
+    <link rel="stylesheet" href="assets/plugins/css/plugins.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" id="jssDefault" href="assets/css/colors/green-style.css"> </head>
+
+<body>
+    <div class="Loader"></div>
+    <div class="wrapper">
+        <nav class="navbar navbar-default navbar-fixed navbar-light white bootsnav">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"><i class="fa fa-bars"></i></button>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" class="logo logo-scrolled" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-left" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li><a href="#"><i class="fa fa-rss"></i> News</a></li>
+                        <li><a href="#"><i class="fa fa-user"></i> Circle</a></li>
+                        <li><a href="#"><i class="fa fa-search"></i>Find Representatives</a></li>
+                        <li><a href="#"><i class="fa fa-link"></i>Connections</a></li>
+                        <li><a href="#"><i class="ti-power-off"></i>Logout</a></li>
+						<li class="active">
+                            <input type="text" class="form-control" placeholder="Search Legislator, Person, District, Party...">
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li><a href="login.html"><i class="fa fa-plus"></i>Create Page</a></li>
+                        <li class="left-br"><a href="javascript:void(0)" data-toggle="modal" data-target="#signup" class="signin">Sign In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="avatar-bg">
+		<div class="container-fluid">
+			<div class="dashboard-avatar">
+			 <div class="col-md-12">	
+				<div class="text-right vedit-profile">
+				    <a href="#" class="btn btn-light manage-btn"><i class="fa fa-camera"></i> Edit Cover Photo </a>
+				</div>	
+				<div class="profile-details">
+				    <div class="profile-width">
+				<div class="dashboard-avatar-thumb">
+					<img src="assets/img/can-2.png" class="img-avater" alt="" />
+					<a class="edit-icon" href="#"><i class="fa fa-camera"></i></a>
+				</div>
+				<div class="profile-name">
+                    <h4>User 4A</h4>
+                    <span>user4a@gmail.com</span>
+                    <div class="paid-candidate-box-extra">
+						<ul>
+							<li class="more-skill"><span>129</span> Followers</li>
+							<li class="more-skill"><span>239</span> Following</li>
+						</ul>
+					</div>
+                </div>
+                <div class="dropdown add-drop">
+                              <a class="drop-add more-skill bg-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Add Section <i class="fa fa-angle-down"></i>
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Drop Down 1</a>
+                                <a class="dropdown-item" href="#">Drop Down 2</a>
+                                <li class="dropdown-submenu">
+                                <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                 <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                                 <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                                </ul>
+                               </li>
+                              </div>
+                            </div>
+				</div>
+				</div>
+				<div class="dashboard-avatar-text col-md-6 col-md-offset-3">
+					<div class="bio-intro">
+					    <p class="addReadMore showlesscontent text click-rmv">Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard 
+					    Dummy Text Ever Since The 1500s, When An Unknown Printer Took A Galley Of Type And Scrambled It To Make A Type 
+					    Specimen Book. It Has Survived Not Only Five Centuries, But Also The Leap Into Electronic Typesetting, Remaining 
+					    Essentially Unchanged.</p>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- General Detail Start -->
+			<section class="dashboard-wrap">
+				<div class="container-fluid">
+					<div class="row">
+					
+						<!-- Sidebar Wrap -->
+						<div class="col-lg-3 col-md-4">
+							<div class="side-dashboard">
+								<div class="dashboard-menu">
+									<ul>
+										<li><a href="activities.html" class="active"><i class="ti-rss"></i> <span class="link-text">Activities</span> </a></li>
+										<li><a href="biodata.html"><i class="ti-user"></i> <span class="link-text">Biodata </span> </a></li>
+										<li><a href="managed-by.html"><i class="ti-flag-alt-2"></i> <span class="link-text">Managed by </span></a></li>
+										<li><a href="settings.html"><i class="ti-settings"></i> <span class="link-text">Settings </span></a></li>
+										<li class="dropdown desktop-view"><a href="#" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true"><i class="ti-menu-alt"></i> <span class="link-text"> More </span></a>
+										<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" style="left: 0px">
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                                        </ul>
+										</li>
+										<li class="dropup clearfix mobile-view"><a href="#" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false"><i class="ti-menu-alt"></i> <span class="link-text"> More </span></a>
+										<ul class="dropdown-menu drop-up" role="menu" aria-labelledby="dropdownMenu2">
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                                        </ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Content Wrap -->
+						<div class="col-lg-9 col-md-8">
+							<div class="dashboard-body">
+								<div class="dashboard-caption">
+								
+									<div class="dashboard-caption-header">
+										<div class="col-md-6"><h4><i class="ti-user"></i>Activities</h4></div>
+									</div>
+									
+									<div class="dashboard-caption-wrap">
+										
+										<ul class="list">
+											<li class="manage-list-row clearfix">
+												<div class="job-info">
+													<div class="job-img">
+														<img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+													</div>
+													<h3 class="job-name"><a class="job_name_tag" href="#">Adam L. Mock</a></h3>
+														<small class="job-sallery"><i class="ti-time"></i>02-Mar-2021 06:29:12</small>
+													<div class="job-details">
+														<p class="msg-pad">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+														text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+														five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+														
+														<p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+														<p><img src="assets/img/banner-2.jpg"></p>
+													</div>
+												</div>
+												<div class="row post-card-footer"><a href="javascript:void(0);" class="col card-link post-footer-btn text-center post-active">
+												<i aria-hidden="true" class="ti-heart custom-size"></i><span>Like(1)</span>  </a>
+												<a class="col card-link post-footer-btn text-center" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="ti-comment-alt custom-size"></i><span> Comment(0) </span> </a>
+												<a class="col card-link post-footer-btn text-center" href="javascript:void(0);"><i class="ti-share custom-size"></i><span>Share(0)</span></a>
+												</div>
+												<ul class="comment-section collapse" id="collapseExample">
+												    <li class="commment-box">
+												        <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												        <ul class="expandible">
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												        </ul>
+												    </li>
+												    <li class="commment-box">
+												        <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												    </li>
+												</ul>
+											</li>
+											
+											<li class="manage-list-row clearfix">
+												<div class="job-info">
+													<div class="job-img">
+														<img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+													</div>
+													<h3 class="job-name"><a class="job_name_tag" href="#">Adam L. Mock</a></h3>
+														<small class="job-sallery"><i class="ti-time"></i>02-Mar-2021 06:29:12</small>
+													<div class="job-details">
+														<p class="msg-pad">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+														text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+														five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+														
+														<p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+													</div>
+												</div>
+												<div class="row post-card-footer"><a href="javascript:void(0);" class="col card-link post-footer-btn text-center post-active">
+												<i aria-hidden="true" class="ti-heart custom-size"></i><span>Like(1)</span>  </a>
+												<a class="col card-link post-footer-btn text-center" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1"><i class="ti-comment-alt custom-size"></i><span> Comment(0) </span> </a>
+												<a class="col card-link post-footer-btn text-center" href="javascript:void(0);"><i class="ti-share custom-size"></i><span>Share(0)</span></a>
+												</div>
+												<ul class="comment-section collapse" id="collapseExample1">
+												    <li class="commment-box">
+												        <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												        <ul class="expandible">
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												        </ul>
+												    </li>
+												    <li class="commment-box">
+												        <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												    </li>
+												</ul>
+											</li>
+											
+											<li class="manage-list-row clearfix">
+												<div class="job-info">
+													<div class="job-img">
+														<img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+													</div>
+													<h3 class="job-name"><a class="job_name_tag" href="#">Adam L. Mock</a></h3>
+														<small class="job-sallery"><i class="ti-time"></i>02-Mar-2021 06:29:12</small>
+													<div class="job-details">
+														<p><img src="assets/img/banner-5.jpg"></p>
+													</div>
+												</div>
+												<div class="row post-card-footer"><a href="javascript:void(0);" class="col card-link post-footer-btn text-center post-active">
+												<i aria-hidden="true" class="ti-heart custom-size"></i><span>Like(1)</span>  </a>
+												<a class="col card-link post-footer-btn text-center" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2"><i class="ti-comment-alt custom-size"></i><span> Comment(0) </span> </a>
+												<a class="col card-link post-footer-btn text-center" href="javascript:void(0);"><i class="ti-share custom-size"></i><span>Share(0)</span></a>
+												</div>
+												<ul class="comment-section collapse" id="collapseExample2">
+												    <li class="commment-box">
+												        <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												        <ul class="expandible">
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												        </ul>
+												    </li>
+												    <li class="commment-box">
+												        <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												    </li>
+												</ul>
+											</li>
+											
+											<li class="manage-list-row clearfix">
+												<div class="job-info">
+													<div class="job-img">
+														<img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+													</div>
+													<h3 class="job-name"><a class="job_name_tag" href="#">Adam L. Mock</a></h3>
+														<small class="job-sallery"><i class="ti-time"></i>02-Mar-2021 06:29:12</small>
+													<div class="job-details">
+														<p><img src="assets/img/banner-6.jpg"></p>
+														<p class="msg-pad">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+														text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+														five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+														
+														<p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+													</div>
+												</div>
+												<div class="row post-card-footer"><a href="javascript:void(0);" class="col card-link post-footer-btn text-center post-active">
+												<i aria-hidden="true" class="ti-heart custom-size"></i><span>Like(1)</span>  </a>
+												<a class="col card-link post-footer-btn text-center" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3"><i class="ti-comment-alt custom-size"></i><span> Comment(0) </span> </a>
+												<a class="col card-link post-footer-btn text-center" href="javascript:void(0);"><i class="ti-share custom-size"></i><span>Share(0)</span></a>
+												</div>
+												<ul class="comment-section collapse" id="collapseExample3">
+												    <li class="commment-box">
+												        <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												        <ul class="expandible">
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												        </ul>
+												    </li>
+												    <li class="commment-box">
+												        <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												    </li>
+												</ul>
+											</li>
+											
+											<li class="manage-list-row clearfix">
+												<div class="job-info">
+													<div class="job-img">
+														<img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+													</div>
+													<h3 class="job-name"><a class="job_name_tag" href="#">Adam L. Mock</a></h3>
+														<small class="job-sallery"><i class="ti-time"></i>02-Mar-2021 06:29:12</small>
+													<div class="job-details">
+														<p><img src="assets/img/banner-10.jpg"></p>
+													</div>
+												</div>
+												<div class="row post-card-footer"><a href="javascript:void(0);" class="col card-link post-footer-btn text-center post-active">
+												<i aria-hidden="true" class="ti-heart custom-size"></i><span>Like(1)</span>  </a>
+												<a class="col card-link post-footer-btn text-center" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4"><i class="ti-comment-alt custom-size"></i><span> Comment(0) </span> </a>
+												<a class="col card-link post-footer-btn text-center" href="javascript:void(0);"><i class="ti-share custom-size"></i><span>Share(0)</span></a>
+												</div>
+												<ul class="comment-section collapse" id="collapseExample4">
+												    <li class="commment-box">
+												        <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												        <ul class="expandible">
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												        </ul>
+												    </li>
+												    <li class="commment-box">
+												        <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												    </li>
+												</ul>
+											</li>
+											<li class="manage-list-row clearfix">
+												<div class="job-info">
+													<div class="job-img">
+														<img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+													</div>
+													<h3 class="job-name"><a class="job_name_tag" href="#">Adam L. Mock</a></h3>
+														<small class="job-sallery"><i class="ti-time"></i>02-Mar-2021 06:29:12</small>
+													
+													<div class="job-details">
+														<p class="msg-pad">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+														text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+														five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+														
+														<p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+													</div>
+												</div>
+												<div class="row post-card-footer"><a href="javascript:void(0);" class="col card-link post-footer-btn text-center post-active">
+												<i aria-hidden="true" class="ti-heart custom-size"></i><span>Like(1)</span>  </a>
+												<a class="col card-link post-footer-btn text-center" data-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5"><i class="ti-comment-alt custom-size"></i><span> Comment(0) </span> </a>
+												<a class="col card-link post-footer-btn text-center" href="javascript:void(0);"><i class="ti-share custom-size"></i><span>Share(0)</span></a>
+												</div>
+												<ul class="comment-section collapse" id="collapseExample5">
+												    <li class="commment-box">
+												        <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												        <ul class="expandible">
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												            <li class="sub-commment">
+												                <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												            </li>
+												        </ul>
+												    </li>
+												    <li class="commment-box">
+												        <div class="comment-avatar">
+												            <img src="assets/img/can-1.png" class="attachment-thumbnail" alt="Academy Pro Theme">
+												        </div>
+												        <div class="commemnt-text">
+												            <div class="commenter-name"><p><a href="#"><b>Danial Rechi</b></a> <span><a href="#">@Raja Ram</a></span></p></div>
+												            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+														and more recently with desktop</p>
+														<div class="comment-like">
+														    <a href="#"><i class="ti-heart custom-size"></i> Like(1)</a>
+														    <a href="#"><i class="ti-share custom-size"></i> Reply(0) </a>
+														</div>
+												        </div>
+												    </li>
+												</ul>
+											</li>
+										
+										</ul>
+										
+										
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+			</section>
+			<!-- General Detail End -->
+
+			
+			<!-- ============================ Footer Start ================================== -->
+			<footer class="dark-footer skin-dark-footer">
+				<div class="container">
+					<div class="row">
+							
+							<div class="col-lg-3 col-md-3">
+								<div class="footer-widget">
+									<img src="assets/img/logo-white.png" class="img-footer" alt="">
+									<div class="footer-add">
+										<p>Collins Street West, Victoria,<br> Australia (AU4578).</p>
+										<p><strong>Email:</strong><br>hello@jobstock.com</p>
+										<p><strong>Call:</strong><br>91 855 742 62548</p>
+									</div>
+									
+								</div>
+							</div>		
+							<div class="col-lg-2 col-md-2">
+								<div class="footer-widget">
+									<h4 class="widget-title">Navigations</h4>
+									<ul class="footer-menu">
+										<li><a href="home-6.html">New Home Design</a></li>
+										<li><a href="browse-candidate-list.html">Browse Candidates</a></li>
+										<li><a href="browse-employer-list.html">Browse Employers</a></li>
+										<li><a href="advance-search-2.html">Advance Search</a></li>
+										<li><a href="checkout.html">Job With Map</a></li>
+									</ul>
+								</div>
+							</div>
+									
+							<div class="col-lg-2 col-md-2">
+								<div class="footer-widget">
+									<h4 class="widget-title">The Highlights</h4>
+									<ul class="footer-menu">
+										<li><a href="index-2.html">Home Page 2</a></li>
+										<li><a href="index-3.html">Home Page 3</a></li>
+										<li><a href="index-4.html">Home Page 4</a></li>
+										<li><a href="index-5.html">Home Page 5</a></li>
+										<li><a href="login.html">LogIn</a></li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="col-lg-2 col-md-2">
+								<div class="footer-widget">
+									<h4 class="widget-title">My Account</h4>
+									<ul class="footer-menu">
+										<li><a href="candidate-dashboard.html">Dashboard</a></li>
+										<li><a href="applications.html">Applications</a></li>
+										<li><a href="packages.html">Packages</a></li>
+										<li><a href="candidate-resume.html">resume.html</a></li>
+										<li><a href="register.html">SignUp Page</a></li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="col-lg-3 col-md-3">
+								<div class="footer-widget">
+									<h4 class="widget-title">Download Apps</h4>
+									<a href="#" class="other-store-link">
+										<div class="other-store-app">
+											<div class="os-app-icon">
+												<i class="ti-android theme-cl"></i>
+											</div>
+											<div class="os-app-caps">
+												Google Play
+												<span>Get It Now</span>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="other-store-link">
+										<div class="other-store-app">
+											<div class="os-app-icon">
+												<i class="ti-apple theme-cl"></i>
+											</div>
+											<div class="os-app-caps">
+												App Store
+												<span>Now it Available</span>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							
+						</div>
+						
+				</div>
+				
+				<div class="footer-bottom">
+					<div class="container">
+						<div class="row align-items-center">
+							
+							<div class="col-lg-6 col-md-6">
+								<p class="mb-0">© 2020 gopolitix. All Rights Reserved</p>
+							</div>
+							
+							<div class="col-lg-6 col-md-6 text-right">
+								<ul class="footer-bottom-social">
+									<li><a href="#"><i class="ti-facebook"></i></a></li>
+									<li><a href="#"><i class="ti-twitter"></i></a></li>
+									<li><a href="#"><i class="ti-instagram"></i></a></li>
+									<li><a href="#"><i class="ti-linkedin"></i></a></li>
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</footer>
+			
+			<!-- ============================ Footer End ================================== -->
+			<!-- Signin Window Code -->
+			<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+							
+							<div class="new-logwrap">
+						
+								<div class="form-group">
+									<label>Username</label>
+									<div class="input-with-icon">
+										<input type="text" class="form-control" placeholder="Enter Your Username">
+										<i class="theme-cl ti-user"></i>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label>Email</label>
+									<div class="input-with-icon">
+										<input type="email" class="form-control" placeholder="Enter Your Email">
+										<i class="theme-cl ti-email"></i>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label>Password</label>
+									<div class="input-with-icon">
+										<input type="password" class="form-control" placeholder="Enter Your Password">
+										<i class="theme-cl ti-lock"></i>
+									</div>
+								</div>
+								
+								<div class="form-groups">
+									<button type="submit" class="btn btn-primary theme-bg full-width">Register</button>
+								</div>
+								
+								<div class="forget-account text-center">
+									<a class="theme-cl" href="#">Forget Password?</a>
+								</div>
+								
+								<div class="social-devider">
+									<span class="line"></span>
+									<span class="circle">Or</span>
+								</div>
+								
+								<div class="social-login row">
+									
+									<div class="col-md-6">
+										<a href="#" class="jb-btn-icon social-login-facebook"><i class="fa fa-facebook"></i>Facebook</a>
+									</div>
+									
+									<div class="col-md-6">
+										<a href="#" class="jb-btn-icon social-login-google"><i class="fa fa-google-plus"></i>Google</a>
+									</div>
+									
+									<div class="col-md-6">
+										<a href="#" class="jb-btn-icon social-login-twitter"><i class="fa fa-twitter"></i>Twitter</a>
+									</div>
+									
+									<div class="col-md-6">
+										<a href="#" class="jb-btn-icon social-login-linkedin"><i class="fa fa-linkedin"></i>Linkedin</a>
+									</div>
+									
+								</div>
+								
+								<div class="register-account text-center">
+									Don't have an account? <a class="theme-cl" href="register.html">Register</a>
+								</div>
+								
+							</div>
+							
+						</div>
+						</div>
+				</div>
+			</div>   
+			<!-- End Signin Window -->
+		
+			
+			<!-- Scripts
+			================================================== -->
+			<script type="text/javascript" src="assets/plugins/js/jquery.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/viewportchecker.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/bootsnav.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/select2.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/wysihtml5-0.3.0.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/bootstrap-wysihtml5.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/datedropper.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/dropzone.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/loader.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/owl.carousel.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/slick.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/gmap3.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/js/jquery.easy-autocomplete.min.js"></script>
+			<!-- Custom Js -->
+			<script src="assets/js/custom.js"></script><script type="text/javascript" src="assets/plugins/js/counterup.min.js"></script>
+			
+			<script>
+				  if ( $(window).width() < 768 ) {
+				  
+					   $('.apply-job-detail').addClass('owl-carousel owl-theme');
+					   $('.more-skills').addClass('item');
+					   
+						$('.owl-carousel').owlCarousel({
+							loop:true,
+							margin:10,
+							nav:false,
+							pagination: false,
+							responsive:{
+								0:{
+									items:1
+								},
+								600:{
+									items:3
+								},
+								1000:{
+									items:5
+								}
+							}
+						})  
+
+					   
+					   
+					}
+					
+			</script>
+
+			
+    </div>
+</body>
+
+
+</html>
